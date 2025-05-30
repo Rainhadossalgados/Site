@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Coxinha de Frango",
             category: "salgados",
             price: 9.99, // Preços em euros
-            image: "./imagens/coxinha.jpeg",
+            image: "./rainha-dos-salgados/imagens/coxinha.jpeg",
             description: "Deliciosa coxinha de frango com queijo, massa crocante e saborosa."
         },
         {
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "10 Rissol queijo e fiambre",
             category: "salgados",
             price: 8.99,
-            image: "./imagens/risolis.jpeg",
+            image: "./rainha-dos-salgados/imagens/risolis.jpeg",
             description: "Pastel frito com recheio de carne moída temperada à portuguesa."
         },
         {
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "10 Rissol de Camarão",
             category: "salgados",
             price: 8.99,
-            image: "./imagens/risolis2.jpeg",
+            image: "./rainha-dos-salgados/imagens/risolis2.jpeg",
             description: "Rissol crocante com recheio cremoso de camarão."
         },
         {
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: " 8 filézinhos de frango",
             category: "salgados",
             price: 11.99,
-            image: "./imagens/frango-frito.jpeg",
+            image: "./rainha-dos-salgados/imagens/frango-frito.jpeg",
             description: "8 filézinhos de frango."
         },
         {
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "10 Quibes de carne bovina",
             category: "salgados",
             price: 15.99,
-            image: "./imagens/kibe.jpeg",
+            image: "./rainha-dos-salgados/imagens/kibe.jpeg",
             description: "10 Quibes de carne bovina."
         },
         {
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Menu 7",
             category: "Menu",
             price: 11.90,
-            image: "./imagens/como-coxinha2.jpeg",
+            image: "./rainha-dos-salgados/imagens/como-coxinha2.jpeg",
             description: "9 Coxinhas brasileiras + batata + 1 coca-cola 250ml."
         },
         {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Coca-Cola 1,5L",
             category: "bebidas",
             price: 4.99,
-            image: "/imagens/coca1.5L.jpg",
+            image: "./rainha-dos-salgados/imagens/coca1.5L.jpg",
             description: "Coca-Cola 1,5L"
         },
         {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Guaraná Antarctica 1,5L",
             category: "bebidas",
             price: 4.99,
-            image: "/imagens/guarana 1.5l.jpg",
+            image: "./rainha-dos-salgados/imagens/guarana 1.5l.jpg",
             description: "Guaraná Antarctica 1,5L."
         },
         {
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Molho Ketchup",
             category: "molhos",
             price: 0.50,
-            image: "/imagens/ketchup.png",
+            image: "./rainha-dos-salgados/imagens/ketchup.png",
             description: "Molho Ketchup."
         },
         {
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Mostarda",
             category: "molhos",
             price: 0.50,
-            image: "/imagens/mostarda.png",
+            image: "./rainha-dos-salgados/imagens/mostarda.png",
             description: "Molho de mostarda para acompanhar."
         },
         {
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Maionese",
             category: "molhos",
             price: 0.50,
-            image: "/imagens/maionese.png",
+            image: "./rainha-dos-salgados/imagens/maionese.png",
             description: "Molho maionese para acompanhar."
         }
     ];
