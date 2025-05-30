@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainha dos Salgados - Salgados Artesanais Portugueses</title>
+    <meta name="description" content="Os melhores salgados artesanais de Portugal, feitos pela Cida Nogueira com ingredientes de qualidade e receitas tradicionais.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="logo-rainha.png" alt="Rainha dos Salgados">
+                    <span>Rainha dos Salgados</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li class="cart-icon"><a href="#cart"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Salgados Artesanais como só a Rainha sabe fazer!</h1>
+                <p>Experimente os nossos deliciosos salgados, bolos e bebidas. Feitos com ingredientes selecionados e muito carinho pela Cida Nogueira.</p>
+                <a href="#products" class="btn">Ver Cardápio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques Section -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Ingredientes Naturais</h3>
+                    <p>Utilizamos apenas ingredientes frescos e de qualidade</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Feito na Hora</h3>
+                    <p>Tudo preparado no dia para garantir o melhor sabor</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entregamos em toda a área metropolitana</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Receita Tradicional</h3>
+                    <p>Segredos de família em cada salgado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <p class="section-subtitle">Descubra os sabores que fazem de nós a Rainha dos Salgados</p>
+            
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="salgados">Salgados</button>
+                <button class="filter-btn" data-filter="bolos">Bolos</button>
+                <button class="filter-btn" data-filter="bebidas">Bebidas</button>
+                <button class="filter-btn" data-filter="molhos">Molhos</button>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <!-- Produtos serão carregados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>A Nossa História</h2>
+                    <p>A Rainha dos Salgados nasceu das mãos habilidosas de Cida Nogueira, que trouxe do Brasil o amor pela gastronomia e adaptou as receitas ao paladar português.</p>
+                    <p>Começou como um pequeno negócio caseiro e hoje é referência em salgados artesanais na região, mantendo sempre a qualidade e o carinho no preparo de cada produto.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Ingredientes premium</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Preparo artesanal</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Higiene impecável</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="cida-nogueira.jpg" alt="Cida Nogueira - Rainha dos Salgados">
+                    <div class="signature">Cida Nogueira</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>O que dizem os nossos clientes</h2>
+            <p class="section-subtitle">A opinião de quem já provou nossos salgados</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Os pastéis de carne da Rainha dos Salgados são os melhores que já comi em Portugal! Crocantes por fora e suculentos por dentro.</p>
+                        <div class="testimonial-author">
+                            <img src="client1.jpg" alt="Cliente">
+                            <div>
+                                <h4>João Mendes</h4>
+                                <span>Cliente há 2 anos</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Sempre que recebo visitas em casa, encomendo os salgados da Cida. Já se tornou tradição e todos adoram!</p>
+                        <div class="testimonial-author">
+                            <img src="client2.jpg" alt="Cliente">
+                            <div>
+                                <h4>Ana Ferreira</h4>
+                                <span>Cliente há 1 ano</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Galeria</h2>
+            <p class="section-subtitle">Conheça nossos produtos por dentro</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="gallery1.jpg" alt="Coxinha">
+                    <div class="gallery-overlay">
+                        <h3>Coxinha de Frango</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery2.jpg" alt="Pastel">
+                    <div class="gallery-overlay">
+                        <h3>Pastel de Carne</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery3.jpg" alt="Bolo">
+                    <div class="gallery-overlay">
+                        <h3>Bolo de Chocolate</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallery4.jpg" alt="Risoles">
+                    <div class="gallery-overlay">
+                        <h3>Risoles</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contacte-nos</h2>
+                    <p>Tem dúvidas ou quer fazer uma encomenda especial? Entre em contacto connosco!</p>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Av. Principal, 123 - Lisboa, Portugal</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+351 964 778 293</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>rainhadossalgados.pt@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Horário: Seg-Sex 8h-19h | Sáb 8h-15h</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Seu telefone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>O Seu Carrinho</h3>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Itens do carrinho serão carregados aqui -->
+            </div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price">€ 0,00</span>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-outline" id="continueShopping">Continuar Compras</button>
+                <button class="btn" id="checkout">Finalizar Encomenda</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Rainha dos Salgados</h4>
+                    <p>Salgados artesanais feitos com ingredientes de qualidade e muito carinho pela Cida Nogueira.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Horário de Funcionamento</h4>
+                    <ul>
+                        <li>Segunda a Sexta: 8h - 19h</li>
+                        <li>Sábado: 8h - 15h</li>
+                        <li>Domingo: Encerrado</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscreva e receba as nossas promoções!</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Rainha dos Salgados. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
