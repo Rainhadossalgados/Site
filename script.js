@@ -1,7 +1,3 @@
-
-## JavaScript (script.js)
-
-```javascript
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Menu Toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu');
@@ -41,73 +37,89 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             title: "Coxinha de Frango",
             category: "salgados",
-            price: 1.50, // Preços em euros
-            image: "coxinha.jpg",
+            price: 9.99, // Preços em euros
+            image: "./imagens/coxinha.jpeg",
             description: "Deliciosa coxinha de frango com queijo, massa crocante e saborosa."
         },
         {
             id: 2,
-            title: "Pastel de Carne",
+            title: "10 Rissol queijo e fiambre",
             category: "salgados",
-            price: 1.80,
-            image: "pastel-carne.jpg",
+            price: 8.99,
+            image: "./imagens/risolis.jpeg",
             description: "Pastel frito com recheio de carne moída temperada à portuguesa."
         },
         {
             id: 3,
-            title: "Rissol de Camarão",
+            title: "10 Rissol de Camarão",
             category: "salgados",
-            price: 2.00,
-            image: "rissole-camarao.jpg",
+            price: 8.99,
+            image: "./imagens/risolis2.jpeg",
             description: "Rissol crocante com recheio cremoso de camarão."
         },
         {
+            id: 10,
+            title: " 8 filézinhos de frango",
+            category: "salgados",
+            price: 11.99,
+            image: "./imagens/frango-frito.jpeg",
+            description: "8 filézinhos de frango."
+        },
+        {
             id: 4,
-            title: "Bolo de Chocolate",
-            category: "bolos",
-            price: 15.00,
-            image: "bolo-chocolate.jpg",
-            description: "Bolo de chocolate húmido com cobertura de ganache."
+            title: "10 Quibes de carne bovina",
+            category: "salgados",
+            price: 15.99,
+            image: "./imagens/kibe.jpeg",
+            description: "10 Quibes de carne bovina."
         },
         {
             id: 5,
-            title: "Bolo de Bolacha",
-            category: "bolos",
-            price: 12.00,
-            image: "bolo-bolacha.jpg",
-            description: "Clássico bolo de bolacha portuguesa com café."
+            title: "Menu 7",
+            category: "Menu",
+            price: 11.90,
+            image: "./imagens/como-coxinha2.jpeg",
+            description: "9 Coxinhas brasileiras + batata + 1 coca-cola 250ml."
         },
         {
             id: 6,
-            title: "Sumo Natural",
+            title: "Coca-Cola 1,5L",
             category: "bebidas",
-            price: 2.50,
-            image: "sumo-natural.jpg",
-            description: "Sumo natural 330ml - sabores: laranja, ananás ou maracujá."
+            price: 4.99,
+            image: "/imagens/coca1.5L.jpg",
+            description: "Coca-Cola 1,5L"
         },
         {
             id: 7,
-            title: "Água Mineral",
+            title: "Guaraná Antarctica 1,5L",
             category: "bebidas",
-            price: 1.00,
-            image: "agua-mineral.jpg",
-            description: "Garrafa de água mineral 500ml."
+            price: 4.99,
+            image: "/imagens/guarana 1.5l.jpg",
+            description: "Guaraná Antarctica 1,5L."
         },
         {
             id: 8,
-            title: "Molho Picante",
+            title: "Molho Ketchup",
             category: "molhos",
             price: 0.50,
-            image: "molho-picante.jpg",
-            description: "Molho picante caseiro - intensidade média."
+            image: "/imagens/ketchup.png",
+            description: "Molho Ketchup."
         },
         {
             id: 9,
-            title: "Molho de Alho",
+            title: "Mostarda",
             category: "molhos",
             price: 0.50,
-            image: "molho-alho.jpg",
-            description: "Molho de alho cremoso para acompanhar."
+            image: "/imagens/mostarda.png",
+            description: "Molho de mostarda para acompanhar."
+        },
+        {
+            id: 9,
+            title: "Maionese",
+            category: "molhos",
+            price: 0.50,
+            image: "/imagens/maionese.png",
+            description: "Molho maionese para acompanhar."
         }
     ];
     
@@ -421,5 +433,5 @@ style.textContent = `
         opacity: 1;
         bottom: 30px;
     }
-;
+`;
 document.head.appendChild(style);
